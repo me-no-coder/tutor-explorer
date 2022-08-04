@@ -127,10 +127,12 @@ export default{
         
     }
     .bg{
-        background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url("bgimage.jpg");
+        background-image: linear-gradient(rgba(255, 168, 236, 0.726), rgba(148, 230, 255, 0.979)),url("bgimage.jpg");
+        /* background-position: center; */
         background-repeat: no-repeat;
-        background-position: center center;
+        background-attachment: fixed;
         background-size: cover;
+        padding: 100px;
     }
     ul {
     list-style: none;

@@ -24,15 +24,15 @@
             <h3>Areas of Expertise</h3>
             <div>
                 <input type="checkbox" id="Physics" value="Physics" v-model="areas.val" @blur="clearValidity('areas')" >
-                <label for="Physics">Physics Development</label>
+                <label for="Physics">Physics</label>
             </div>
             <div>
                 <input type="checkbox" id="Chemistry" value="Chemistry" v-model="areas.val" @blur="clearValidity('areas')">
-                <label for="Chemistry">Chemistry Development</label>
+                <label for="Chemistry">Chemistry</label>
             </div>
             <div>
                 <input type="checkbox" id="Maths" value="Maths" v-model="areas.val" @blur="clearValidity('areas')">
-                <label for="Maths">Maths Advisory</label>
+                <label for="Maths">Maths</label>
                 <p v-if="!areas.isValid">At least one skill must be selected.</p>
             </div>
             <p v-if="!formIsValid">Please fix the above errors and submit again...</p>
