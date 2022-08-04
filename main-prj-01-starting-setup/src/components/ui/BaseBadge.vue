@@ -27,17 +27,17 @@ export default{
     margin: 0.5rem;
     }
 
-    .frontend {
+    .Physics {
     background-color: #3d008d;
     color: white;
     }
 
-    .backend {
+    .Chemistry {
     background-color: #71008d;
     color: white;
     }
 
-    .career {
+    .Maths {
     background-color: #8d006e;
     color: white;
     }

@@ -23,16 +23,16 @@
         <div class="form-control" :class="{invalid: !areas.isValid}">
             <h3>Areas of Expertise</h3>
             <div>
-                <input type="checkbox" id="frontend" value="frontend" v-model="areas.val" @blur="clearValidity('areas')" >
-                <label for="frontend">Frontend Development</label>
+                <input type="checkbox" id="Physics" value="Physics" v-model="areas.val" @blur="clearValidity('areas')" >
+                <label for="Physics">Physics Development</label>
             </div>
             <div>
-                <input type="checkbox" id="backend" value="backend" v-model="areas.val" @blur="clearValidity('areas')">
-                <label for="backend">Backend Development</label>
+                <input type="checkbox" id="Chemistry" value="Chemistry" v-model="areas.val" @blur="clearValidity('areas')">
+                <label for="Chemistry">Chemistry Development</label>
             </div>
             <div>
-                <input type="checkbox" id="career" value="career" v-model="areas.val" @blur="clearValidity('areas')">
-                <label for="career">Career Advisory</label>
+                <input type="checkbox" id="Maths" value="Maths" v-model="areas.val" @blur="clearValidity('areas')">
+                <label for="Maths">Maths Advisory</label>
                 <p v-if="!areas.isValid">At least one skill must be selected.</p>
             </div>
             <p v-if="!formIsValid">Please fix the above errors and submit again...</p>

@@ -2,16 +2,16 @@
     <base-card>
         <h2>Find Your Coach</h2>
         <span class="filter-option">
-            <input type="checkbox" id="frontend" checked @change="setFilter" />
-            <label for="frontend">Frontend</label>
+            <input type="checkbox" id="Physics" checked @change="setFilter" />
+            <label for="Physics">Physics</label>
         </span>
         <span class="filter-option">
-            <input type="checkbox" id="backend" checked @change="setFilter" />
-            <label for="backend">Backend</label>
+            <input type="checkbox" id="Chemistry" checked @change="setFilter" />
+            <label for="Chemistry">Chemistry</label>
         </span>
         <span class="filter-option">
-            <input type="checkbox" id="career" checked @change="setFilter" />
-            <label for="career">Career</label>
+            <input type="checkbox" id="Maths" checked @change="setFilter" />
+            <label for="Maths">Maths</label>
         </span>
     </base-card>
 </template>
@@ -25,9 +25,9 @@ export default{
         return{
             filters:
             {
-                frontend: true,
-                backend: true,
-                career: true
+                Physics: true,
+                Chemistry: true,
+                Maths: true
             }
         }
     },

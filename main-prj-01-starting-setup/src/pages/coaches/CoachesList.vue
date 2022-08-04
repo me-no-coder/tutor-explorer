@@ -49,9 +49,9 @@ export default{
             isLoading: false,
             activeFilters:
             {
-                frontend: true,
-                backend: true,
-                career: true
+                Physics: true,
+                Chemistry: true,
+                Maths: true
             }
         };
     },
@@ -70,15 +70,15 @@ export default{
             const coaches = this.$store.getters['coaches/coaches'];
             return coaches.filter(coach =>
             {
-                if(this.activeFilters.frontend && coach.areas.includes('frontend'))
+                if(this.activeFilters.Physics && coach.areas.includes('Physics'))
                 {
                     return true;
                 }
-                if(this.activeFilters.backend && coach.areas.includes('backend'))
+                if(this.activeFilters.Chemistry && coach.areas.includes('Chemistry'))
                 {
                     return true;
                 }
-                if(this.activeFilters.career && coach.areas.includes('career'))
+                if(this.activeFilters.Maths && coach.areas.includes('Maths'))
                 {
                     return true;
                 }
