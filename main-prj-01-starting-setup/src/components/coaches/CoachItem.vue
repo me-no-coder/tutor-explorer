@@ -6,7 +6,7 @@
             <base-badge v-for="area in areas" :key="area" :type="area" :title="area"></base-badge>
         </div>
         <div class="actions">
-            <base-button mode="outline" link :to="coachContactLink">
+            <base-button id="blackItem" mode="outline" link :to="coachContactLink">
                 Contact
             </base-button>
             <base-button link :to="coachDetailsLink">
@@ -46,8 +46,9 @@ export default{
 <style scoped>
     li {
     margin: 1rem 0;
-    border: 1px solid #fff;
-    border-radius: 12px;
+    border: 3.5px solid rgba(46, 0, 155, 0.726);
+    border-style: double;
+    border-radius: 6px;
     padding: 1rem;
     }
 
@@ -67,5 +68,13 @@ export default{
     .actions {
     display: flex;
     justify-content: flex-end;
+    }
+
+    #blackItem{
+        color: black;
+    }
+
+    #blackItem:hover{
+        color:white;
     }
 </style>

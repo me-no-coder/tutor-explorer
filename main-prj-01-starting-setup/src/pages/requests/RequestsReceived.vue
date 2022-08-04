@@ -79,10 +79,10 @@ section{
     /* display: flex;
     justify-content: center;
     align-items: center; */
-    padding-top:133px ;
+    padding:80.5px ;
   max-height: 100%;
   background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url("bgimage.jpg");
-  background-repeat: no-repeat;
+  /* background-repeat: no-repeat; */
   background-position: center center;
   background-size: cover;
 }

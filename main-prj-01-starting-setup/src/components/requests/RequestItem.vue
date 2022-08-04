@@ -25,7 +25,10 @@ export default{
 
 li {
   margin: 1rem 0;
-  border: 1px solid #ccc;
+  border: 1px solid rgba(78, 16, 0, 0.767);
+  border-radius: 4px;
+  border-style: double;
+  border-width: 3px;
   padding: 1rem;
 }
 

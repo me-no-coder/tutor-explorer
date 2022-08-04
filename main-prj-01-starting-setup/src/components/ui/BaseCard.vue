@@ -11,12 +11,12 @@
     /* display: flex;
     align-items: center;
     justify-content: center; */
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.26);
     padding: 1rem;
-    margin: auto ;
-    max-width: 40rem;
+    margin: 30px auto 30px auto;
+    max-width: 50rem;
     text-align: center;
     color: rgb(0, 0, 0);
-    border:  white;
+    border: white;
     }
 </style>
