@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div className="bg">
         <base-dialog :show="!!error" title="An error occurred" @close="handleError">
             <p>{{ error }}</p>
         </base-dialog>
@@ -119,6 +119,12 @@ form {
   border-radius: 12px;
   padding: 1rem;
 }
+
+.bg{
+        background-image: linear-gradient(rgba(255, 168, 236, 0.726), rgba(148, 230, 255, 0.979));
+        background-size:inherit;
+        padding: 114px;
+    }
 
 .form-control {
   margin: 0.5rem 0;

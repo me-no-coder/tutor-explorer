@@ -1,9 +1,9 @@
 <template>
-    <div>
+    <div className="bg">
         <section>
             <base-card>
                 <h2>{{ fullName }}</h2>
-                <h3>${{ rate }}</h3>
+                <h3>₹{{ rate }}</h3>
             </base-card>
         </section>
         <section>
@@ -72,3 +72,14 @@ export default{
     }
 }
 </script>
+
+<style scoped>
+    .bg{
+        background-image: linear-gradient(rgba(255, 168, 236, 0.726), rgba(148, 230, 255, 0.979));
+        /* background-position: center; */
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        padding: 100px;
+    }
+</style>

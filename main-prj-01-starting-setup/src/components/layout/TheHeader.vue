@@ -58,12 +58,14 @@ export default{
     display: inline-block;
     padding: 0.75rem 1.5rem;
     border: 1px solid transparent;
+    transition: 0.4s;
     }
 
     a:active,
     a:hover,
     a.router-link-active {
     border: 1px solid #f391e3;
+    transition: 0.4s;
     }
 
     h1 {
