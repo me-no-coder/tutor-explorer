@@ -46,6 +46,9 @@ export default{
     border-radius: 30px;
     margin: 1rem 0.5rem 1rem;
     display: inline-block;
+    border: outset;
+    border-color: #3d008d;
+    border-width: 1px;
     }
 
     a:hover,
