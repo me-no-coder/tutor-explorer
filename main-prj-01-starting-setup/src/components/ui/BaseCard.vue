@@ -18,5 +18,7 @@
     text-align: center;
     color: rgb(0, 0, 0);
     border: white;
+    
+    background-color:rgba(0,0,0,.1)
     }
 </style>

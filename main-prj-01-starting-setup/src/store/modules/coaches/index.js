@@ -11,20 +11,20 @@ export default{
             [
                 {
                     id: 'c1',
-                    firstName: 'Maximilian',
-                    lastName: 'Schwarzmüller',
+                    firstName: 'Please',
+                    lastName: 'Refresh',
                     areas: ['Physics', 'Chemistry', 'Maths'],
                     description:
-                    "I'm Maximilian and I've worked as a freelance web developer for years. Let me help you become a developer as well!",
+                    "Click on the refresh button to fetch coach details :)",
                     hourlyRate: 30
                 },
                 {
                     id: 'c2',
-                    firstName: 'Julie',
-                    lastName: 'Jones',
+                    firstName: 'Dummy',
+                    lastName: 'Name',
                     areas: ['Physics', 'Maths'],
                     description:
-                    'I am Julie and as a senior developer in a big tech company, I can help you get your first job or progress in your current role.',
+                    'Just a hardcoded dummy example. Press refresh to see the app work :)',
                     hourlyRate: 30
                 }
             ]
