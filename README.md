@@ -1,4 +1,4 @@
-# tutor-explorer
+# Coach-explorer Project Syopsis
 A website to explore tutors on different subjects,
 with a functionality to register as a tutor, sign in,
 and to find various kinds of tutors through provided
